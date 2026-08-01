@@ -1,0 +1,10 @@
+{
+  "refreshMinutes": 15,
+  "rpcUrlEnvironmentVariable": "SOLANA_RPC_URL",
+  "anomalyThresholds": {
+    "minimumTps": 1000,
+    "maximumSlotTimeMs": 650,
+    "maximumDelinquentStakePct": 2,
+    "maximumAbsolutePriceChange24hPct": 10
+  }
+}
