@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-08-01T08:33:38.594552Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-08-01T13:53:27.311453Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **977.08 TPS**
+- Throughput: **1,405.13 TPS**
 - Average slot time: **0.43 seconds**
 - Active / delinquent validators: **693 / 11**
-- SOL price: **72.97 USD** (-0.91 % over 24h)
-- DeFi TVL: **4.73B USD** · DEX volume: **1.73B USD**
+- SOL price: **72.87 USD** (-0.42 % over 24h)
+- DeFi TVL: **4.73B USD** · DEX volume: **1.70B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 977.08 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| TPS | 1,405.13 TPS | live · Solana RPC · getRecentPerformanceSamples |
 | Slot time | 0.43 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 414.58M blocks | live · Solana RPC · getBlockHeight |
+| Block height | 414.63M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,010 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 48.14 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 58.65 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 631.38M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -42,18 +42,18 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 72.97 USD | live · CoinGecko |
+| SOL price | 72.87 USD | live · CoinGecko |
 | DeFi TVL | 4.73B USD | live · DefiLlama |
-| Stablecoin supply | 15.67B USD | live · DefiLlama Stablecoins |
-| DEX volume · 24h | 1.73B USD | live · DefiLlama DEX |
-| Application fees · 24h | 8.15M USD | live · DefiLlama Fees |
+| Stablecoin supply | 15.66B USD | live · DefiLlama Stablecoins |
+| DEX volume · 24h | 1.70B USD | live · DefiLlama DEX |
+| Application fees · 24h | 8.19M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
 | Daily active addresses | 544,061.50 addresses | derived · Solana Data · Allium, Dune |
 | Tokenized assets | 2.80B USD | curated · Solana Ecosystem Roundup · May 2026 |
 
 ## Alerts
 
-- **WATCH · TPS — 977 TPS**: Throughput is below the operating baseline. Rule: `TPS < 1,000`
+- **INFO · System — Within thresholds**: No configured network or market anomaly is active. Rule: `all rules evaluated`
 
 ## Upgrade radar
 
