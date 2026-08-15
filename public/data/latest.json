@@ -1,24 +1,24 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-15T06:57:01.525405Z",
+  "generatedAt": "2026-08-15T12:58:08.491426Z",
   "freshnessSeconds": 0,
   "health": "healthy",
   "network": {
     "tps": {
-      "value": 902.3666666666667,
+      "value": 1783.4,
       "unit": "TPS",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples",
       "note": "Non-vote transactions"
     },
     "slotTime": {
-      "value": 0.40540540540540543,
+      "value": 0.410958904109589,
       "unit": "seconds",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples"
     },
     "blockHeight": {
-      "value": 417436709,
+      "value": 417488664,
       "unit": "blocks",
       "status": "live",
       "source": "Solana RPC \u00b7 getBlockHeight"
@@ -30,13 +30,13 @@
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "epochProgress": {
-      "value": 9.686574074074073,
+      "value": 21.757175925925925,
       "unit": "%",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "supply": {
-      "value": 632262338.6884806,
+      "value": 632262171.7065132,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getSupply"
@@ -159,37 +159,37 @@
   },
   "markets": {
     "solPrice": {
-      "value": 75.4,
+      "value": 75.22,
       "unit": "USD",
       "status": "live",
       "source": "CoinGecko"
     },
     "solChange24h": {
-      "value": -0.1573312539741427,
+      "value": -0.21790458620378975,
       "unit": "%",
       "status": "live",
       "source": "CoinGecko"
     },
     "tvl": {
-      "value": 4820764054.416662,
+      "value": 4810690400.85116,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama"
     },
     "stablecoinSupply": {
-      "value": 15347734080.1436,
+      "value": 15353731984.158794,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Stablecoins"
     },
     "dexVolume24h": {
-      "value": 1642311971.56,
+      "value": 1612403611.56,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama DEX"
     },
     "protocolRevenue24h": {
-      "value": 8004118.789999999,
+      "value": 7971680.789999999,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Fees",
@@ -219,53 +219,53 @@
   "history": [
     {
       "label": "T-7",
-      "tps": 988.8666666666667,
-      "slotTime": 0.43478260869565216
+      "tps": 1660.15,
+      "slotTime": 0.40816326530612246
     },
     {
       "label": "T-6",
-      "tps": 1369.3,
-      "slotTime": 0.42857142857142855
+      "tps": 1750.25,
+      "slotTime": 0.41379310344827586
     },
     {
       "label": "T-5",
-      "tps": 1376.4333333333334,
+      "tps": 1799.4333333333334,
       "slotTime": 0.410958904109589
     },
     {
       "label": "T-4",
-      "tps": 1075.1333333333334,
-      "slotTime": 0.4195804195804196
+      "tps": 1576.7333333333333,
+      "slotTime": 0.410958904109589
     },
     {
       "label": "T-3",
-      "tps": 1226.1,
+      "tps": 2200.9666666666667,
       "slotTime": 0.40816326530612246
     },
     {
       "label": "T-2",
-      "tps": 1086.25,
-      "slotTime": 0.4195804195804196
+      "tps": 1914.4,
+      "slotTime": 0.410958904109589
     },
     {
       "label": "T-1",
-      "tps": 1045.7166666666667,
+      "tps": 2156.116666666667,
       "slotTime": 0.410958904109589
     },
     {
       "label": "T-0",
-      "tps": 902.3666666666667,
-      "slotTime": 0.40540540540540543
+      "tps": 1783.4,
+      "slotTime": 0.410958904109589
     }
   ],
   "alerts": [
     {
-      "id": "tps-low",
-      "severity": "watch",
-      "metric": "TPS",
-      "observed": "902 TPS",
-      "rule": "TPS < 1,000",
-      "message": "Throughput is below the operating baseline."
+      "id": "all-clear",
+      "severity": "info",
+      "metric": "System",
+      "observed": "Within thresholds",
+      "rule": "all rules evaluated",
+      "message": "No configured network or market anomaly is active."
     }
   ],
   "upgrades": [
