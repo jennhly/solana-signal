@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-15T12:58:08.491426Z",
+  "generatedAt": "2026-08-15T18:46:37.180162Z",
   "freshnessSeconds": 0,
   "health": "healthy",
   "network": {
     "tps": {
-      "value": 1783.4,
+      "value": 1811.9333333333334,
       "unit": "TPS",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples",
@@ -18,7 +18,7 @@
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples"
     },
     "blockHeight": {
-      "value": 417488664,
+      "value": 417538931,
       "unit": "blocks",
       "status": "live",
       "source": "Solana RPC \u00b7 getBlockHeight"
@@ -30,13 +30,13 @@
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "epochProgress": {
-      "value": 21.757175925925925,
+      "value": 33.396064814814814,
       "unit": "%",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "supply": {
-      "value": 632262171.7065132,
+      "value": 632261969.0633872,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getSupply"
@@ -159,25 +159,25 @@
   },
   "markets": {
     "solPrice": {
-      "value": 75.22,
+      "value": 75.5,
       "unit": "USD",
       "status": "live",
       "source": "CoinGecko"
     },
     "solChange24h": {
-      "value": -0.21790458620378975,
+      "value": 0.5954106629420863,
       "unit": "%",
       "status": "live",
       "source": "CoinGecko"
     },
     "tvl": {
-      "value": 4810690400.85116,
+      "value": 4818533129.477824,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama"
     },
     "stablecoinSupply": {
-      "value": 15353731984.158794,
+      "value": 15349347126.036446,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Stablecoins"
@@ -189,7 +189,7 @@
       "source": "DefiLlama DEX"
     },
     "protocolRevenue24h": {
-      "value": 7971680.789999999,
+      "value": 8047086.789999999,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Fees",
@@ -202,11 +202,11 @@
       "source": "Solana RPC \u00b7 getRecentPrioritizationFees"
     },
     "dailyActiveAddresses": {
-      "value": 588630.0,
+      "value": 650954.5,
       "unit": "addresses",
       "status": "derived",
-      "source": "Solana Data \u00b7 Allium, Dune",
-      "note": "Median of 2 provider observations for 2026-08-14; official endpoint refreshes twice daily with a one-day lag"
+      "source": "Solana Data \u00b7 Allium, Artemis, Dune, RWA",
+      "note": "Median of 4 provider observations for 2026-08-14; official endpoint refreshes twice daily with a one-day lag"
     },
     "tokenizedAssets": {
       "value": 2800000000,
@@ -219,42 +219,42 @@
   "history": [
     {
       "label": "T-7",
-      "tps": 1660.15,
-      "slotTime": 0.40816326530612246
+      "tps": 2151.516666666667,
+      "slotTime": 0.425531914893617
     },
     {
       "label": "T-6",
-      "tps": 1750.25,
-      "slotTime": 0.41379310344827586
+      "tps": 1687.2666666666667,
+      "slotTime": 0.425531914893617
     },
     {
       "label": "T-5",
-      "tps": 1799.4333333333334,
-      "slotTime": 0.410958904109589
+      "tps": 2261.1,
+      "slotTime": 0.40540540540540543
     },
     {
       "label": "T-4",
-      "tps": 1576.7333333333333,
+      "tps": 2038.3166666666666,
       "slotTime": 0.410958904109589
     },
     {
       "label": "T-3",
-      "tps": 2200.9666666666667,
-      "slotTime": 0.40816326530612246
+      "tps": 1597.25,
+      "slotTime": 0.41379310344827586
     },
     {
       "label": "T-2",
-      "tps": 1914.4,
-      "slotTime": 0.410958904109589
+      "tps": 1338.3166666666666,
+      "slotTime": 0.4195804195804196
     },
     {
       "label": "T-1",
-      "tps": 2156.116666666667,
-      "slotTime": 0.410958904109589
+      "tps": 1701.3666666666666,
+      "slotTime": 0.40816326530612246
     },
     {
       "label": "T-0",
-      "tps": 1783.4,
+      "tps": 1811.9333333333334,
       "slotTime": 0.410958904109589
     }
   ],
