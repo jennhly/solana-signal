@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-08-20T13:10:08.899571Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-08-20T18:58:23.962698Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **2,289.65 TPS**
+- Throughput: **3,057.28 TPS**
 - Average slot time: **0.41 seconds**
 - Active / delinquent validators: **690 / 6**
-- SOL price: **87.26 USD** (11.54 % over 24h)
-- DeFi TVL: **5.30B USD** · DEX volume: **3.01B USD**
+- SOL price: **86.97 USD** (5.98 % over 24h)
+- DeFi TVL: **5.31B USD** · DEX volume: **3.01B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 2,289.65 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| TPS | 3,057.28 TPS | live · Solana RPC · getRecentPerformanceSamples |
 | Slot time | 0.41 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 418.53M blocks | live · Solana RPC · getBlockHeight |
+| Block height | 418.58M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,019 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 62.73 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 74.33 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 632.51M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -42,18 +42,18 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 87.26 USD | live · CoinGecko |
-| DeFi TVL | 5.30B USD | live · DefiLlama |
-| Stablecoin supply | 15.67B USD | live · DefiLlama Stablecoins |
+| SOL price | 86.97 USD | live · CoinGecko |
+| DeFi TVL | 5.31B USD | live · DefiLlama |
+| Stablecoin supply | 15.73B USD | live · DefiLlama Stablecoins |
 | DEX volume · 24h | 3.01B USD | live · DefiLlama DEX |
-| Application fees · 24h | 13.59M USD | live · DefiLlama Fees |
+| Application fees · 24h | 13.68M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
-| Daily active addresses | 714,722.00 addresses | derived · Solana Data · Allium, Dune |
+| Daily active addresses | 804,356 addresses | derived · Solana Data · Allium, Artemis, Blockworks, Dune, RWA |
 | Tokenized assets | 2.80B USD | curated · Solana Ecosystem Roundup · May 2026 |
 
 ## Alerts
 
-- **WATCH · SOL price — 11.5% / 24h**: SOL moved beyond the configured daily threshold. Rule: `|24h change| > 10%`
+- **INFO · System — Within thresholds**: No configured network or market anomaly is active. Rule: `all rules evaluated`
 
 ## Upgrade radar
 
