@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-08-31T22:49:12.499820Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-09-01T05:05:24.161896Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **1,790.68 TPS**
+- Throughput: **1,949.08 TPS**
 - Average slot time: **0.31 seconds**
-- Active / delinquent validators: **681 / 13**
-- SOL price: **103.15 USD** (-0.53 % over 24h)
-- DeFi TVL: **5.85B USD** · DEX volume: **1.93B USD**
+- Active / delinquent validators: **680 / 14**
+- SOL price: **103.77 USD** (2.25 % over 24h)
+- DeFi TVL: **5.83B USD** · DEX volume: **2.46B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 1,790.68 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| TPS | 1,949.08 TPS | live · Solana RPC · getRecentPerformanceSamples |
 | Slot time | 0.31 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 421.32M blocks | live · Solana RPC · getBlockHeight |
+| Block height | 421.39M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,026 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 8.49 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 24.94 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 633.27M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -42,11 +42,11 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 103.15 USD | live · CoinGecko |
-| DeFi TVL | 5.85B USD | live · DefiLlama |
-| Stablecoin supply | 15.69B USD | live · DefiLlama Stablecoins |
-| DEX volume · 24h | 1.93B USD | live · DefiLlama DEX |
-| Application fees · 24h | 12.31M USD | live · DefiLlama Fees |
+| SOL price | 103.77 USD | live · CoinGecko |
+| DeFi TVL | 5.83B USD | live · DefiLlama |
+| Stablecoin supply | 15.73B USD | live · DefiLlama Stablecoins |
+| DEX volume · 24h | 2.46B USD | live · DefiLlama DEX |
+| Application fees · 24h | 13.29M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
 | Daily active addresses | 725,539.00 addresses | derived · Solana Data · Allium, Artemis, Blockworks, Dune, Goldsky, RWA |
 | Tokenized assets | 2.80B USD | curated · Solana Ecosystem Roundup · May 2026 |
