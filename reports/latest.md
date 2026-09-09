@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-09-09T16:36:48.869340Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-09-09T20:54:51.494412Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **2,138.08 TPS**
-- Average slot time: **0.31 seconds**
-- Active / delinquent validators: **678 / 10**
-- SOL price: **103.39 USD** (-0.64 % over 24h)
-- DeFi TVL: **5.96B USD** · DEX volume: **2.71B USD**
+- Throughput: **2,083.63 TPS**
+- Average slot time: **0.32 seconds**
+- Active / delinquent validators: **673 / 15**
+- SOL price: **102.38 USD** (-0.86 % over 24h)
+- DeFi TVL: **5.94B USD** · DEX volume: **2.71B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 2,138.08 TPS | live · Solana RPC · getRecentPerformanceSamples |
-| Slot time | 0.31 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 423.70M blocks | live · Solana RPC · getBlockHeight |
+| TPS | 2,083.63 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| Slot time | 0.32 seconds | live · Solana RPC · getRecentPerformanceSamples |
+| Block height | 423.75M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,031 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 61.57 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 72.85 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 633.74M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -42,9 +42,9 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 103.39 USD | live · CoinGecko |
-| DeFi TVL | 5.96B USD | live · DefiLlama |
-| Stablecoin supply | 16.12B USD | live · DefiLlama Stablecoins |
+| SOL price | 102.38 USD | live · CoinGecko |
+| DeFi TVL | 5.94B USD | live · DefiLlama |
+| Stablecoin supply | 16.14B USD | live · DefiLlama Stablecoins |
 | DEX volume · 24h | 2.71B USD | live · DefiLlama DEX |
 | Application fees · 24h | 16.56M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
