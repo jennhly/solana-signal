@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-09-13T11:49:00.396299Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-09-13T16:15:04.693779Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **1,073.23 TPS**
-- Average slot time: **0.32 seconds**
+- Throughput: **2,134.40 TPS**
+- Average slot time: **0.31 seconds**
 - Active / delinquent validators: **677 / 12**
-- SOL price: **99.74 USD** (-2.24 % over 24h)
-- DeFi TVL: **5.84B USD** · DEX volume: **1.69B USD**
+- SOL price: **100.87 USD** (-1.13 % over 24h)
+- DeFi TVL: **5.85B USD** · DEX volume: **1.69B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 1,073.23 TPS | live · Solana RPC · getRecentPerformanceSamples |
-| Slot time | 0.32 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 424.74M blocks | live · Solana RPC · getBlockHeight |
+| TPS | 2,134.40 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| Slot time | 0.31 seconds | live · Solana RPC · getRecentPerformanceSamples |
+| Block height | 424.79M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,034 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 1.71 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 13.41 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 634.02M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -42,9 +42,9 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 99.74 USD | live · CoinGecko |
-| DeFi TVL | 5.84B USD | live · DefiLlama |
-| Stablecoin supply | 16.10B USD | live · DefiLlama Stablecoins |
+| SOL price | 100.87 USD | live · CoinGecko |
+| DeFi TVL | 5.85B USD | live · DefiLlama |
+| Stablecoin supply | 16.04B USD | live · DefiLlama Stablecoins |
 | DEX volume · 24h | 1.69B USD | live · DefiLlama DEX |
 | Application fees · 24h | 13.52M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
