@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-09-18T16:22:37.933474Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-09-18T20:53:23.217087Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **2,872.87 TPS**
+- Throughput: **3,156.47 TPS**
 - Average slot time: **0.27 seconds**
-- Active / delinquent validators: **677 / 11**
-- SOL price: **111.49 USD** (10.25 % over 24h)
-- DeFi TVL: **6.13B USD** · DEX volume: **2.59B USD**
+- Active / delinquent validators: **676 / 12**
+- SOL price: **113.53 USD** (12.29 % over 24h)
+- DeFi TVL: **6.27B USD** · DEX volume: **2.59B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 2,872.87 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| TPS | 3,156.47 TPS | live · Solana RPC · getRecentPerformanceSamples |
 | Slot time | 0.27 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 426.18M blocks | live · Solana RPC · getBlockHeight |
+| Block height | 426.24M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,037 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 35.22 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 49.28 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 634.30M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -42,9 +42,9 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 111.49 USD | live · CoinGecko |
-| DeFi TVL | 6.13B USD | live · DefiLlama |
-| Stablecoin supply | 16.07B USD | live · DefiLlama Stablecoins |
+| SOL price | 113.53 USD | live · CoinGecko |
+| DeFi TVL | 6.27B USD | live · DefiLlama |
+| Stablecoin supply | 15.77B USD | live · DefiLlama Stablecoins |
 | DEX volume · 24h | 2.59B USD | live · DefiLlama DEX |
 | Application fees · 24h | 14.68M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
@@ -53,7 +53,7 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 ## Alerts
 
-- **WATCH · SOL price — 10.3% / 24h**: SOL moved beyond the configured daily threshold. Rule: `|24h change| > 10%`
+- **WATCH · SOL price — 12.3% / 24h**: SOL moved beyond the configured daily threshold. Rule: `|24h change| > 10%`
 
 ## Upgrade radar
 
