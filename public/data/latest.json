@@ -1,24 +1,24 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-26T11:22:20.882065Z",
+  "generatedAt": "2026-09-26T16:21:41.263516Z",
   "freshnessSeconds": 0,
   "health": "healthy",
   "network": {
     "tps": {
-      "value": 1612.1,
+      "value": 1676.25,
       "unit": "TPS",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples",
       "note": "Non-vote transactions"
     },
     "slotTime": {
-      "value": 0.26548672566371684,
+      "value": 0.26200873362445415,
       "unit": "seconds",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples"
     },
     "blockHeight": {
-      "value": 428699523,
+      "value": 428766552,
       "unit": "blocks",
       "status": "live",
       "source": "Solana RPC \u00b7 getBlockHeight"
@@ -30,13 +30,13 @@
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "epochProgress": {
-      "value": 19.386574074074073,
+      "value": 34.90717592592593,
       "unit": "%",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "supply": {
-      "value": 634764014.3356838,
+      "value": 634763799.3633813,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getSupply"
@@ -159,37 +159,37 @@
   },
   "markets": {
     "solPrice": {
-      "value": 120.57,
+      "value": 121.64,
       "unit": "USD",
       "status": "live",
       "source": "CoinGecko"
     },
     "solChange24h": {
-      "value": -0.45231291593024053,
+      "value": 0.27585458407548424,
       "unit": "%",
       "status": "live",
       "source": "CoinGecko"
     },
     "tvl": {
-      "value": 6582298151.075482,
+      "value": 6608434165.2760315,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama"
     },
     "stablecoinSupply": {
-      "value": 17683772796.74534,
+      "value": 16437668257.34325,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Stablecoins"
     },
     "dexVolume24h": {
-      "value": 2800185915.63,
+      "value": 2612632382.63,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama DEX"
     },
     "protocolRevenue24h": {
-      "value": 15474961.469999999,
+      "value": 15598587.469999999,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Fees",
@@ -219,43 +219,43 @@
   "history": [
     {
       "label": "T-7",
-      "tps": 1768.3333333333333,
-      "slotTime": 0.26666666666666666
+      "tps": 1991.1166666666666,
+      "slotTime": 0.2727272727272727
     },
     {
       "label": "T-6",
-      "tps": 1765.4666666666667,
-      "slotTime": 0.2631578947368421
+      "tps": 1696.3833333333334,
+      "slotTime": 0.26905829596412556
     },
     {
       "label": "T-5",
-      "tps": 1925.8333333333333,
+      "tps": 1909.4333333333334,
       "slotTime": 0.26548672566371684
     },
     {
       "label": "T-4",
-      "tps": 1819.2833333333333,
-      "slotTime": 0.27149321266968324
-    },
-    {
-      "label": "T-3",
-      "tps": 1696.4,
-      "slotTime": 0.2643171806167401
-    },
-    {
-      "label": "T-2",
-      "tps": 1521.65,
-      "slotTime": 0.27149321266968324
-    },
-    {
-      "label": "T-1",
-      "tps": 1469.7,
+      "tps": 1928.6833333333334,
       "slotTime": 0.26666666666666666
     },
     {
-      "label": "T-0",
-      "tps": 1612.1,
+      "label": "T-3",
+      "tps": 1537.35,
+      "slotTime": 0.26905829596412556
+    },
+    {
+      "label": "T-2",
+      "tps": 1556.5833333333333,
+      "slotTime": 0.2702702702702703
+    },
+    {
+      "label": "T-1",
+      "tps": 1578.3,
       "slotTime": 0.26548672566371684
+    },
+    {
+      "label": "T-0",
+      "tps": 1676.25,
+      "slotTime": 0.26200873362445415
     }
   ],
   "alerts": [
