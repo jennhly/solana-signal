@@ -1,24 +1,24 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-29T05:41:51.132913Z",
+  "generatedAt": "2026-09-29T12:49:52.341772Z",
   "freshnessSeconds": 0,
   "health": "healthy",
   "network": {
     "tps": {
-      "value": 1388.15,
+      "value": 1575.25,
       "unit": "TPS",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples",
       "note": "Non-vote transactions"
     },
     "slotTime": {
-      "value": 0.26666666666666666,
+      "value": 0.2643171806167401,
       "unit": "seconds",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples"
     },
     "blockHeight": {
-      "value": 429589960,
+      "value": 429686188,
       "unit": "blocks",
       "status": "live",
       "source": "Solana RPC \u00b7 getBlockHeight"
@@ -30,13 +30,13 @@
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "epochProgress": {
-      "value": 25.55324074074074,
+      "value": 47.83148148148148,
       "unit": "%",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "supply": {
-      "value": 634918758.8652506,
+      "value": 634918497.514896,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getSupply"
@@ -44,25 +44,25 @@
   },
   "validators": {
     "active": {
-      "value": 675,
+      "value": 672,
       "unit": "validators",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "delinquent": {
-      "value": 7,
+      "value": 10,
       "unit": "validators",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "activeStake": {
-      "value": 441226281.3195617,
+      "value": 440929450.7419838,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "delinquentStakePct": {
-      "value": 0.005328239899957928,
+      "value": 0.07259865743834379,
       "unit": "%",
       "status": "derived",
       "source": "Solana RPC \u00b7 derived"
@@ -171,25 +171,25 @@
       "source": "CoinGecko"
     },
     "tvl": {
-      "value": 6441772839.731358,
+      "value": 6506001132.737409,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama"
     },
     "stablecoinSupply": {
-      "value": 16244331102.75364,
+      "value": 16105696585.997593,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Stablecoins"
     },
     "dexVolume24h": {
-      "value": 2290100033.25,
+      "value": 2662015200.25,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama DEX"
     },
     "protocolRevenue24h": {
-      "value": 17452720.349999998,
+      "value": 17397216.349999998,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Fees",
@@ -202,11 +202,11 @@
       "source": "Solana RPC \u00b7 getRecentPrioritizationFees"
     },
     "dailyActiveAddresses": {
-      "value": 734269,
+      "value": 754230.5,
       "unit": "addresses",
       "status": "derived",
-      "source": "Solana Data \u00b7 Allium, Artemis, Blockworks, Dune, Goldsky, RWA, Top Ledger",
-      "note": "Median of 7 provider observations for 2026-09-27; official endpoint refreshes twice daily with a one-day lag"
+      "source": "Solana Data \u00b7 Allium, Dune, Goldsky, Top Ledger",
+      "note": "Median of 4 provider observations for 2026-09-28; official endpoint refreshes twice daily with a one-day lag"
     },
     "tokenizedAssets": {
       "value": 2800000000,
@@ -219,43 +219,43 @@
   "history": [
     {
       "label": "T-7",
-      "tps": 1545.5333333333333,
-      "slotTime": 0.2702702702702703
+      "tps": 1543.7333333333333,
+      "slotTime": 0.2608695652173913
     },
     {
       "label": "T-6",
-      "tps": 1714.6,
+      "tps": 1652.6833333333334,
       "slotTime": 0.26785714285714285
     },
     {
       "label": "T-5",
-      "tps": 1606.4333333333334,
-      "slotTime": 0.2702702702702703
+      "tps": 1347.95,
+      "slotTime": 0.27522935779816515
     },
     {
       "label": "T-4",
-      "tps": 1812.0166666666667,
-      "slotTime": 0.26905829596412556
+      "tps": 1332.85,
+      "slotTime": 0.27149321266968324
     },
     {
       "label": "T-3",
-      "tps": 1559.45,
-      "slotTime": 0.26905829596412556
+      "tps": 1578.2666666666667,
+      "slotTime": 0.26785714285714285
     },
     {
       "label": "T-2",
-      "tps": 1360.9,
-      "slotTime": 0.26666666666666666
+      "tps": 1676.05,
+      "slotTime": 0.26548672566371684
     },
     {
       "label": "T-1",
-      "tps": 1281.0333333333333,
-      "slotTime": 0.26905829596412556
+      "tps": 1358.15,
+      "slotTime": 0.26548672566371684
     },
     {
       "label": "T-0",
-      "tps": 1388.15,
-      "slotTime": 0.26666666666666666
+      "tps": 1575.25,
+      "slotTime": 0.2643171806167401
     }
   ],
   "alerts": [
@@ -348,5 +348,7 @@
       "status": "curated \u00b7 primary"
     }
   ],
-  "errors": []
+  "errors": [
+    "price: HTTP Error 403: Forbidden"
+  ]
 }
