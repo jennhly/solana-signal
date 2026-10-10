@@ -1,24 +1,24 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-09T22:36:43.514572Z",
+  "generatedAt": "2026-10-10T05:49:34.498809Z",
   "freshnessSeconds": 0,
   "health": "healthy",
   "network": {
     "tps": {
-      "value": 1847.5333333333333,
+      "value": 1193.0333333333333,
       "unit": "TPS",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples",
       "note": "Non-vote transactions"
     },
     "slotTime": {
-      "value": 0.22304832713754646,
+      "value": 0.21897810218978103,
       "unit": "seconds",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples"
     },
     "blockHeight": {
-      "value": 433063779,
+      "value": 433182796,
       "unit": "blocks",
       "status": "live",
       "source": "Solana RPC \u00b7 getBlockHeight"
@@ -30,13 +30,13 @@
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "epochProgress": {
-      "value": 30.21550925925926,
+      "value": 57.76782407407407,
       "unit": "%",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "supply": {
-      "value": 635536906.1185485,
+      "value": 635536588.6009908,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getSupply"
@@ -44,7 +44,7 @@
   },
   "validators": {
     "active": {
-      "value": 674,
+      "value": 675,
       "unit": "validators",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
@@ -159,37 +159,37 @@
   },
   "markets": {
     "solPrice": {
-      "value": 109.2,
+      "value": 110.12,
       "unit": "USD",
       "status": "live",
       "source": "CoinGecko"
     },
     "solChange24h": {
-      "value": -0.9658993266705564,
+      "value": -0.16413934708610955,
       "unit": "%",
       "status": "live",
       "source": "CoinGecko"
     },
     "tvl": {
-      "value": 6176818356.159811,
+      "value": 6206331169.507438,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama"
     },
     "stablecoinSupply": {
-      "value": 16120472909.274572,
+      "value": 16065440985.428335,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Stablecoins"
     },
     "dexVolume24h": {
-      "value": 2644852886.2400002,
+      "value": 2215423677.91,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama DEX"
     },
     "protocolRevenue24h": {
-      "value": 15072203.229999997,
+      "value": 13937192.19,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Fees",
@@ -219,43 +219,43 @@
   "history": [
     {
       "label": "T-7",
-      "tps": 1751.45,
-      "slotTime": 0.21818181818181817
-    },
-    {
-      "label": "T-6",
-      "tps": 1791.9333333333334,
-      "slotTime": 0.2158273381294964
-    },
-    {
-      "label": "T-5",
-      "tps": 1752.7666666666667,
+      "tps": 1419.45,
       "slotTime": 0.21739130434782608
     },
     {
-      "label": "T-4",
-      "tps": 1825.5,
+      "label": "T-6",
+      "tps": 1359.8666666666666,
       "slotTime": 0.21660649819494585
     },
     {
+      "label": "T-5",
+      "tps": 1256.0333333333333,
+      "slotTime": 0.2222222222222222
+    },
+    {
+      "label": "T-4",
+      "tps": 1318.6166666666666,
+      "slotTime": 0.22388059701492538
+    },
+    {
       "label": "T-3",
-      "tps": 1826.0333333333333,
-      "slotTime": 0.21352313167259787
+      "tps": 1321.2666666666667,
+      "slotTime": 0.21818181818181817
     },
     {
       "label": "T-2",
-      "tps": 2348.05,
-      "slotTime": 0.21897810218978103
+      "tps": 1300.9166666666667,
+      "slotTime": 0.21739130434782608
     },
     {
       "label": "T-1",
-      "tps": 1986.95,
-      "slotTime": 0.22556390977443608
+      "tps": 1436.3166666666666,
+      "slotTime": 0.2127659574468085
     },
     {
       "label": "T-0",
-      "tps": 1847.5333333333333,
-      "slotTime": 0.22304832713754646
+      "tps": 1193.0333333333333,
+      "slotTime": 0.21897810218978103
     }
   ],
   "alerts": [
