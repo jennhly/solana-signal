@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-10-13T14:08:33.114151Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-10-13T22:42:43.696976Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **2,413.82 TPS**
+- Throughput: **2,127.07 TPS**
 - Average slot time: **0.22 seconds**
 - Active / delinquent validators: **673 / 7**
-- SOL price: **107.24 USD** (-2.61 % over 24h)
-- DeFi TVL: **6.04B USD** · DEX volume: **2.23B USD**
+- SOL price: **106.89 USD** (0.11 % over 24h)
+- DeFi TVL: **6.06B USD** · DEX volume: **2.23B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 2,413.82 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| TPS | 2,127.07 TPS | live · Solana RPC · getRecentPerformanceSamples |
 | Slot time | 0.22 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 434.51M blocks | live · Solana RPC · getBlockHeight |
+| Block height | 434.65M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,056 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 64.23 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 96.87 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 635.72M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -42,13 +42,13 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 107.24 USD | live · CoinGecko |
-| DeFi TVL | 6.04B USD | live · DefiLlama |
-| Stablecoin supply | 15.95B USD | live · DefiLlama Stablecoins |
+| SOL price | 106.89 USD | live · CoinGecko |
+| DeFi TVL | 6.06B USD | live · DefiLlama |
+| Stablecoin supply | 16.04B USD | live · DefiLlama Stablecoins |
 | DEX volume · 24h | 2.23B USD | live · DefiLlama DEX |
-| Application fees · 24h | 12.99M USD | live · DefiLlama Fees |
+| Application fees · 24h | 13.10M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
-| Daily active addresses | 674,914.50 addresses | derived · Solana Data · Allium, Dune, Goldsky, Top Ledger |
+| Daily active addresses | 760,007 addresses | derived · Solana Data · Allium, Artemis, Blockworks, Dune, Goldsky, RWA, Top Ledger |
 | Tokenized assets | 2.80B USD | curated · Solana Ecosystem Roundup · May 2026 |
 
 ## Alerts
