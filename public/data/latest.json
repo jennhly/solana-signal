@@ -1,24 +1,24 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-24T20:46:30.100064Z",
+  "generatedAt": "2026-10-25T04:37:59.125918Z",
   "freshnessSeconds": 0,
   "health": "healthy",
   "network": {
     "tps": {
-      "value": 2106.8333333333335,
+      "value": 1629.2,
       "unit": "TPS",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples",
       "note": "Non-vote transactions"
     },
     "slotTime": {
-      "value": 0.21352313167259787,
+      "value": 0.21428571428571427,
       "unit": "seconds",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples"
     },
     "blockHeight": {
-      "value": 439020377,
+      "value": 439153313,
       "unit": "blocks",
       "status": "live",
       "source": "Solana RPC \u00b7 getBlockHeight"
@@ -30,13 +30,13 @@
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "epochProgress": {
-      "value": 10.92199074074074,
+      "value": 41.75347222222222,
       "unit": "%",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "supply": {
-      "value": 636396179.911685,
+      "value": 636396049.745168,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getSupply"
@@ -159,37 +159,37 @@
   },
   "markets": {
     "solPrice": {
-      "value": 101.39,
+      "value": 102.42,
       "unit": "USD",
       "status": "live",
       "source": "CoinGecko"
     },
     "solChange24h": {
-      "value": -2.24836879195501,
+      "value": -0.1614789157637074,
       "unit": "%",
       "status": "live",
       "source": "CoinGecko"
     },
     "tvl": {
-      "value": 5738978252.522641,
+      "value": 5798255518.217511,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama"
     },
     "stablecoinSupply": {
-      "value": 15531593124.852276,
+      "value": 15520019136.846899,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Stablecoins"
     },
     "dexVolume24h": {
-      "value": 1997070440.3700001,
+      "value": 1732393737.8,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama DEX"
     },
     "protocolRevenue24h": {
-      "value": 10552167.090000004,
+      "value": 9945181.909999996,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Fees",
@@ -202,11 +202,11 @@
       "source": "Solana RPC \u00b7 getRecentPrioritizationFees"
     },
     "dailyActiveAddresses": {
-      "value": 697495,
+      "value": 590891.0,
       "unit": "addresses",
       "status": "derived",
-      "source": "Solana Data \u00b7 Allium, Artemis, Blockworks, Dune, Goldsky, RWA, Top Ledger",
-      "note": "Median of 7 provider observations for 2026-10-23; official endpoint refreshes twice daily with a one-day lag"
+      "source": "Solana Data \u00b7 Allium, Dune, Goldsky, Top Ledger",
+      "note": "Median of 4 provider observations for 2026-10-24; official endpoint refreshes twice daily with a one-day lag"
     },
     "tokenizedAssets": {
       "value": 2800000000,
@@ -219,43 +219,43 @@
   "history": [
     {
       "label": "T-7",
-      "tps": 2101.65,
+      "tps": 1314.2833333333333,
       "slotTime": 0.21052631578947367
     },
     {
       "label": "T-6",
-      "tps": 2110.116666666667,
-      "slotTime": 0.20833333333333334
+      "tps": 1174.9333333333334,
+      "slotTime": 0.21052631578947367
     },
     {
       "label": "T-5",
-      "tps": 1894.8833333333334,
-      "slotTime": 0.21052631578947367
+      "tps": 1385.1,
+      "slotTime": 0.2112676056338028
     },
     {
       "label": "T-4",
-      "tps": 1916.8166666666666,
-      "slotTime": 0.2097902097902098
+      "tps": 1598.4833333333333,
+      "slotTime": 0.21818181818181817
     },
     {
       "label": "T-3",
-      "tps": 2065.7166666666667,
-      "slotTime": 0.21505376344086022
+      "tps": 1748.0333333333333,
+      "slotTime": 0.21201413427561838
     },
     {
       "label": "T-2",
-      "tps": 2222.133333333333,
-      "slotTime": 0.2127659574468085
+      "tps": 1924.4666666666667,
+      "slotTime": 0.2158273381294964
     },
     {
       "label": "T-1",
-      "tps": 1902.9166666666667,
-      "slotTime": 0.21052631578947367
+      "tps": 1585.7833333333333,
+      "slotTime": 0.21428571428571427
     },
     {
       "label": "T-0",
-      "tps": 2106.8333333333335,
-      "slotTime": 0.21352313167259787
+      "tps": 1629.2,
+      "slotTime": 0.21428571428571427
     }
   ],
   "alerts": [
