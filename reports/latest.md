@@ -1,25 +1,25 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-10-27T22:11:47.048262Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-10-28T05:39:19.298924Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **1,678.52 TPS**
-- Average slot time: **0.22 seconds**
-- Active / delinquent validators: **665 / 20**
-- SOL price: **101.15 USD** (0.78 % over 24h)
-- DeFi TVL: **5.72B USD** · DEX volume: **2.07B USD**
+- Throughput: **1,485.62 TPS**
+- Average slot time: **0.21 seconds**
+- Active / delinquent validators: **662 / 29**
+- SOL price: **101.83 USD** (2.02 % over 24h)
+- DeFi TVL: **5.75B USD** · DEX volume: **1.85B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 1,678.52 TPS | live · Solana RPC · getRecentPerformanceSamples |
-| Slot time | 0.22 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 440.26M blocks | live · Solana RPC · getBlockHeight |
-| Epoch | 1,069 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 98.81 % | live · Solana RPC · getEpochInfo |
-| SOL supply | 636.52M SOL | live · Solana RPC · getSupply |
+| TPS | 1,485.62 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| Slot time | 0.21 seconds | live · Solana RPC · getRecentPerformanceSamples |
+| Block height | 440.39M blocks | live · Solana RPC · getBlockHeight |
+| Epoch | 1,070 | live · Solana RPC · getEpochInfo |
+| Epoch progress | 28.02 % | live · Solana RPC · getEpochInfo |
+| SOL supply | 636.58M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
 
@@ -27,28 +27,28 @@ The stake concentration coefficient is **18**: the minimum ranked validator coun
 
 | Rank | Identity | Stake (SOL) | Share | Commission | Status |
 |---:|---|---:|---:|---:|---|
-| 1 | `Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk` | 17,059,304 | 3.90% | 7% | Current |
-| 2 | `HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU` | 16,636,453 | 3.81% | 0% | Current |
-| 3 | `DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy` | 12,660,117 | 2.90% | 0% | Current |
-| 4 | `E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL` | 10,812,577 | 2.47% | 0% | Current |
-| 5 | `JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b` | 9,716,980 | 2.22% | 5% | Current |
-| 6 | `CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4` | 9,494,053 | 2.17% | 10% | Current |
-| 7 | `C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k` | 9,206,552 | 2.11% | 7% | Current |
-| 8 | `EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4` | 7,754,189 | 1.77% | 7% | Current |
-| 9 | `9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY` | 7,040,177 | 1.61% | 5% | Current |
-| 10 | `Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM` | 6,996,375 | 1.60% | 0% | Current |
+| 1 | `Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk` | 17,006,422 | 3.89% | 7% | Current |
+| 2 | `HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU` | 16,661,096 | 3.81% | 0% | Current |
+| 3 | `DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy` | 12,791,931 | 2.93% | 0% | Current |
+| 4 | `E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL` | 10,815,143 | 2.47% | 0% | Current |
+| 5 | `JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b` | 9,718,548 | 2.22% | 5% | Current |
+| 6 | `CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4` | 9,464,443 | 2.16% | 10% | Current |
+| 7 | `C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k` | 9,208,877 | 2.11% | 7% | Current |
+| 8 | `EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4` | 7,757,994 | 1.77% | 7% | Current |
+| 9 | `9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY` | 7,041,146 | 1.61% | 5% | Current |
+| 10 | `Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM` | 6,997,044 | 1.60% | 0% | Current |
 
 ## Economy
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 101.15 USD | live · CoinGecko |
-| DeFi TVL | 5.72B USD | live · DefiLlama |
-| Stablecoin supply | 15.38B USD | live · DefiLlama Stablecoins |
-| DEX volume · 24h | 2.07B USD | live · DefiLlama DEX |
-| Application fees · 24h | 11.67M USD | live · DefiLlama Fees |
+| SOL price | 101.83 USD | live · CoinGecko |
+| DeFi TVL | 5.75B USD | live · DefiLlama |
+| Stablecoin supply | 15.27B USD | live · DefiLlama Stablecoins |
+| DEX volume · 24h | 1.85B USD | live · DefiLlama DEX |
+| Application fees · 24h | 11.08M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
-| Daily active addresses | 788,203.00 addresses | derived · Solana Data · Artemis, Blockworks, Dune, Goldsky, RWA, Top Ledger |
+| Daily active addresses | 595,926 addresses | derived · Solana Data · Dune, Goldsky, Top Ledger |
 | Tokenized assets | 2.80B USD | curated · Solana Ecosystem Roundup · May 2026 |
 
 ## Alerts
