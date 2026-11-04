@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-11-04T14:35:36.069002Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-11-04T23:38:41.360328Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **2,631.98 TPS**
-- Average slot time: **0.22 seconds**
+- Throughput: **2,132.67 TPS**
+- Average slot time: **0.21 seconds**
 - Active / delinquent validators: **662 / 31**
-- SOL price: **93.16 USD** (-0.15 % over 24h)
-- DeFi TVL: **5.45B USD** · DEX volume: **1.88B USD**
+- SOL price: **95.61 USD** (2.43 % over 24h)
+- DeFi TVL: **5.53B USD** · DEX volume: **1.88B USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 2,631.98 TPS | live · Solana RPC · getRecentPerformanceSamples |
-| Slot time | 0.22 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 443.36M blocks | live · Solana RPC · getBlockHeight |
+| TPS | 2,132.67 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| Slot time | 0.21 seconds | live · Solana RPC · getRecentPerformanceSamples |
+| Block height | 443.51M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,077 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 17.01 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 52.09 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 637.01M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -32,7 +32,7 @@ The stake concentration coefficient is **17**: the minimum ranked validator coun
 | 3 | `DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy` | 13,012,272 | 3.01% | 0% | Current |
 | 4 | `E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL` | 10,433,406 | 2.41% | 0% | Current |
 | 5 | `JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr` | 9,524,736 | 2.20% | 5% | Current |
-| 6 | `2fBQ7AyQsgpQkJAAzwVLVu1we2tDV4C8g2mgi2kLFnAq` | 9,439,186 | 2.18% | 10% | Current |
+| 6 | `7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4` | 9,439,186 | 2.18% | 10% | Current |
 | 7 | `C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k` | 9,217,930 | 2.13% | 7% | Current |
 | 8 | `EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4` | 7,826,697 | 1.81% | 7% | Current |
 | 9 | `Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM` | 6,981,457 | 1.61% | 0% | Current |
@@ -42,11 +42,11 @@ The stake concentration coefficient is **17**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 93.16 USD | live · CoinGecko |
-| DeFi TVL | 5.45B USD | live · DefiLlama |
-| Stablecoin supply | 14.43B USD | live · DefiLlama Stablecoins |
+| SOL price | 95.61 USD | live · CoinGecko |
+| DeFi TVL | 5.53B USD | live · DefiLlama |
+| Stablecoin supply | 14.82B USD | live · DefiLlama Stablecoins |
 | DEX volume · 24h | 1.88B USD | live · DefiLlama DEX |
-| Application fees · 24h | 11.34M USD | live · DefiLlama Fees |
+| Application fees · 24h | 11.46M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
 | Daily active addresses | 595,926 addresses | derived · Solana Data · Dune, Goldsky, Top Ledger |
 | Tokenized assets | 2.80B USD | curated · Solana Ecosystem Roundup · May 2026 |
