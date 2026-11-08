@@ -1,42 +1,42 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-08T13:20:26.628972Z",
+  "generatedAt": "2026-11-08T22:01:00.143843Z",
   "freshnessSeconds": 0,
   "health": "healthy",
   "network": {
     "tps": {
-      "value": 1224.8,
+      "value": 3665.7833333333333,
       "unit": "TPS",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples",
       "note": "Non-vote transactions"
     },
     "slotTime": {
-      "value": 0.21739130434782608,
+      "value": 0.21352313167259787,
       "unit": "seconds",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples"
     },
     "blockHeight": {
-      "value": 444947882,
+      "value": 445093205,
       "unit": "blocks",
       "status": "live",
       "source": "Solana RPC \u00b7 getBlockHeight"
     },
     "epoch": {
-      "value": 1080,
+      "value": 1081,
       "unit": "",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "epochProgress": {
-      "value": 85.55648148148148,
+      "value": 19.228703703703705,
       "unit": "%",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "supply": {
-      "value": 637188699.4545637,
+      "value": 637250062.3924729,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getSupply"
@@ -44,25 +44,25 @@
   },
   "validators": {
     "active": {
-      "value": 663,
+      "value": 661,
       "unit": "validators",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "delinquent": {
-      "value": 34,
+      "value": 36,
       "unit": "validators",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "activeStake": {
-      "value": 434151638.5075572,
+      "value": 433293948.3538422,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "delinquentStakePct": {
-      "value": 0.14474558701963736,
+      "value": 0.14440714059287507,
       "unit": "%",
       "status": "derived",
       "source": "Solana RPC \u00b7 derived"
@@ -78,106 +78,106 @@
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
         "voteAccount": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-        "activatedStake": 17043402.15397293,
-        "sharePct": 3.9199973170620206,
+        "activatedStake": 17050552.557098977,
+        "sharePct": 3.9294179866532657,
         "commission": 7,
         "delinquent": false
       },
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
         "voteAccount": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-        "activatedStake": 16729015.577055248,
-        "sharePct": 3.847688130967368,
+        "activatedStake": 16720131.036488129,
+        "sharePct": 3.8532700576100503,
         "commission": 0,
         "delinquent": false
       },
       {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
         "voteAccount": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-        "activatedStake": 13015290.66981266,
-        "sharePct": 2.9935281726926157,
+        "activatedStake": 13021912.458177231,
+        "sharePct": 3.0009899598521748,
         "commission": 0,
         "delinquent": false
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
         "voteAccount": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-        "activatedStake": 10277562.545788256,
-        "sharePct": 2.363848323325262,
+        "activatedStake": 10279070.038531397,
+        "sharePct": 2.368882918029381,
         "commission": 0,
         "delinquent": false
       },
       {
         "identity": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
         "voteAccount": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-        "activatedStake": 9558411.276694272,
-        "sharePct": 2.1984429060299235,
+        "activatedStake": 9553388.105946444,
+        "sharePct": 2.2016444881345447,
         "commission": 5,
         "delinquent": false
       },
       {
         "identity": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
         "voteAccount": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-        "activatedStake": 9520069.594755253,
-        "sharePct": 2.1896242858404347,
+        "activatedStake": 9550278.203907773,
+        "sharePct": 2.2009277896600197,
         "commission": 10,
         "delinquent": false
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
         "voteAccount": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-        "activatedStake": 9242930.179149434,
-        "sharePct": 2.125881979239185,
+        "activatedStake": 9222876.153367508,
+        "sharePct": 2.125475718417645,
         "commission": 7,
         "delinquent": false
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
         "voteAccount": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-        "activatedStake": 7750589.204772706,
-        "sharePct": 1.7826422573310314,
+        "activatedStake": 7775136.54920629,
+        "sharePct": 1.7918340946913307,
         "commission": 7,
-        "delinquent": false
-      },
-      {
-        "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "voteAccount": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-        "activatedStake": 6983623.274861617,
-        "sharePct": 1.60623942646615,
-        "commission": 5,
         "delinquent": false
       },
       {
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
         "voteAccount": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-        "activatedStake": 6973337.248836027,
-        "sharePct": 1.60387363153511,
+        "activatedStake": 6980318.80233264,
+        "sharePct": 1.6086628373248817,
         "commission": 0,
+        "delinquent": false
+      },
+      {
+        "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+        "voteAccount": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
+        "activatedStake": 6711283.530804647,
+        "sharePct": 1.5466617947518597,
+        "commission": 5,
         "delinquent": false
       }
     ]
   },
   "markets": {
     "solPrice": {
-      "value": 89.73,
+      "value": 85.57,
       "unit": "USD",
       "status": "live",
       "source": "CoinGecko"
     },
     "solChange24h": {
-      "value": 0.05919056636017267,
+      "value": -4.012899370113556,
       "unit": "%",
       "status": "live",
       "source": "CoinGecko"
     },
     "tvl": {
-      "value": 5223225096.4800625,
+      "value": 5217382879.238918,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama"
     },
     "stablecoinSupply": {
-      "value": 14570257976.950253,
+      "value": 14767338957.034033,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Stablecoins"
@@ -189,7 +189,7 @@
       "source": "DefiLlama DEX"
     },
     "protocolRevenue24h": {
-      "value": 8030344.47,
+      "value": 8042457.47,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Fees",
@@ -219,43 +219,43 @@
   "history": [
     {
       "label": "T-7",
-      "tps": 1348.4666666666667,
-      "slotTime": 0.21660649819494585
-    },
-    {
-      "label": "T-6",
-      "tps": 1372.5666666666666,
-      "slotTime": 0.21818181818181817
-    },
-    {
-      "label": "T-5",
-      "tps": 1256.2,
-      "slotTime": 0.2158273381294964
-    },
-    {
-      "label": "T-4",
-      "tps": 1280.0166666666667,
-      "slotTime": 0.2127659574468085
-    },
-    {
-      "label": "T-3",
-      "tps": 1786.4666666666667,
+      "tps": 2705.1,
       "slotTime": 0.21505376344086022
     },
     {
+      "label": "T-6",
+      "tps": 2389.4666666666667,
+      "slotTime": 0.20833333333333334
+    },
+    {
+      "label": "T-5",
+      "tps": 3741.983333333333,
+      "slotTime": 0.21428571428571427
+    },
+    {
+      "label": "T-4",
+      "tps": 3919.616666666667,
+      "slotTime": 0.21660649819494585
+    },
+    {
+      "label": "T-3",
+      "tps": 3652.516666666667,
+      "slotTime": 0.21428571428571427
+    },
+    {
       "label": "T-2",
-      "tps": 1443.45,
-      "slotTime": 0.21739130434782608
+      "tps": 3359.9,
+      "slotTime": 0.22140221402214022
     },
     {
       "label": "T-1",
-      "tps": 1182.8666666666666,
-      "slotTime": 0.21201413427561838
+      "tps": 3523.3,
+      "slotTime": 0.21660649819494585
     },
     {
       "label": "T-0",
-      "tps": 1224.8,
-      "slotTime": 0.21739130434782608
+      "tps": 3665.7833333333333,
+      "slotTime": 0.21352313167259787
     }
   ],
   "alerts": [
