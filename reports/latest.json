@@ -1,24 +1,24 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-16T06:23:29.342349Z",
+  "generatedAt": "2026-11-16T21:58:59.265371Z",
   "freshnessSeconds": 0,
   "health": "healthy",
   "network": {
     "tps": {
-      "value": 1645.25,
+      "value": 2159.7,
       "unit": "TPS",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples",
       "note": "Non-vote transactions"
     },
     "slotTime": {
-      "value": 0.2097902097902098,
+      "value": 0.21505376344086022,
       "unit": "seconds",
       "status": "live",
       "source": "Solana RPC \u00b7 getRecentPerformanceSamples"
     },
     "blockHeight": {
-      "value": 448044562,
+      "value": 448305782,
       "unit": "blocks",
       "status": "live",
       "source": "Solana RPC \u00b7 getBlockHeight"
@@ -30,13 +30,13 @@
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "epochProgress": {
-      "value": 3.153703703703704,
+      "value": 63.63912037037037,
       "unit": "%",
       "status": "live",
       "source": "Solana RPC \u00b7 getEpochInfo"
     },
     "supply": {
-      "value": 637677053.4470755,
+      "value": 637676773.2745378,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getSupply"
@@ -44,25 +44,25 @@
   },
   "validators": {
     "active": {
-      "value": 662,
+      "value": 661,
       "unit": "validators",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "delinquent": {
-      "value": 37,
+      "value": 38,
       "unit": "validators",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "activeStake": {
-      "value": 428992845.4544356,
+      "value": 428716550.06338936,
       "unit": "SOL",
       "status": "live",
       "source": "Solana RPC \u00b7 getVoteAccounts"
     },
     "delinquentStakePct": {
-      "value": 0.03546326230653002,
+      "value": 0.0998460161481262,
       "unit": "%",
       "status": "derived",
       "source": "Solana RPC \u00b7 derived"
@@ -159,37 +159,37 @@
   },
   "markets": {
     "solPrice": {
-      "value": 70.98,
+      "value": 71.86,
       "unit": "USD",
       "status": "live",
       "source": "CoinGecko"
     },
     "solChange24h": {
-      "value": 0.768714678976892,
+      "value": -0.18387124389798745,
       "unit": "%",
       "status": "live",
       "source": "CoinGecko"
     },
     "tvl": {
-      "value": 4700404819.305048,
+      "value": 4733098162.334721,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama"
     },
     "stablecoinSupply": {
-      "value": 13975902014.64567,
+      "value": 13847784574.170053,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Stablecoins"
     },
     "dexVolume24h": {
-      "value": 1543698435.0900002,
+      "value": 1352559060.0900002,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama DEX"
     },
     "protocolRevenue24h": {
-      "value": 7303486.199999999,
+      "value": 7199120.529999999,
       "unit": "USD",
       "status": "live",
       "source": "DefiLlama Fees",
@@ -219,43 +219,43 @@
   "history": [
     {
       "label": "T-7",
-      "tps": 1654.95,
-      "slotTime": 0.21352313167259787
+      "tps": 2429.633333333333,
+      "slotTime": 0.21428571428571427
     },
     {
       "label": "T-6",
-      "tps": 1578.7833333333333,
-      "slotTime": 0.21505376344086022
+      "tps": 2454.983333333333,
+      "slotTime": 0.21978021978021978
     },
     {
       "label": "T-5",
-      "tps": 1957.4833333333333,
-      "slotTime": 0.21428571428571427
+      "tps": 2760.2833333333333,
+      "slotTime": 0.21660649819494585
     },
     {
       "label": "T-4",
-      "tps": 1530.9,
-      "slotTime": 0.21428571428571427
+      "tps": 2767.733333333333,
+      "slotTime": 0.21505376344086022
     },
     {
       "label": "T-3",
-      "tps": 1956.1,
-      "slotTime": 0.2158273381294964
+      "tps": 2602.116666666667,
+      "slotTime": 0.21660649819494585
     },
     {
       "label": "T-2",
-      "tps": 1748.1833333333334,
-      "slotTime": 0.21428571428571427
+      "tps": 2465.883333333333,
+      "slotTime": 0.21352313167259787
     },
     {
       "label": "T-1",
-      "tps": 1400.9,
-      "slotTime": 0.2158273381294964
+      "tps": 2391.9666666666667,
+      "slotTime": 0.21978021978021978
     },
     {
       "label": "T-0",
-      "tps": 1645.25,
-      "slotTime": 0.2097902097902098
+      "tps": 2159.7,
+      "slotTime": 0.21505376344086022
     }
   ],
   "alerts": [
