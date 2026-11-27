@@ -1,24 +1,24 @@
 # Solana Signal — Ecosystem Report
 
-Generated: `2026-11-27T08:25:04.965659Z` · Health: **Healthy** · Schema: `1.0.0`
+Generated: `2026-11-27T21:14:39.244631Z` · Health: **Healthy** · Schema: `1.0.0`
 
 ## Executive signal
 
-- Throughput: **1,135.92 TPS**
+- Throughput: **2,238.37 TPS**
 - Average slot time: **0.22 seconds**
 - Active / delinquent validators: **654 / 34**
-- SOL price: **73.45 USD** (3.59 % over 24h)
-- DeFi TVL: **4.70B USD** · DEX volume: **1.23B USD**
+- SOL price: **71.97 USD** (0.83 % over 24h)
+- DeFi TVL: **4.64B USD** · DEX volume: **870.58M USD**
 
 ## Network
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| TPS | 1,135.92 TPS | live · Solana RPC · getRecentPerformanceSamples |
+| TPS | 2,238.37 TPS | live · Solana RPC · getRecentPerformanceSamples |
 | Slot time | 0.22 seconds | live · Solana RPC · getRecentPerformanceSamples |
-| Block height | 452.49M blocks | live · Solana RPC · getBlockHeight |
+| Block height | 452.71M blocks | live · Solana RPC · getBlockHeight |
 | Epoch | 1,098 | live · Solana RPC · getEpochInfo |
-| Epoch progress | 33.84 % | live · Solana RPC · getEpochInfo |
+| Epoch progress | 83.60 % | live · Solana RPC · getEpochInfo |
 | SOL supply | 638.29M SOL | live · Solana RPC · getSupply |
 
 ## Validator health
@@ -42,10 +42,10 @@ The stake concentration coefficient is **17**: the minimum ranked validator coun
 
 | Metric | Value | Provenance |
 |---|---:|---|
-| SOL price | 73.45 USD | live · CoinGecko |
-| DeFi TVL | 4.70B USD | live · DefiLlama |
-| Stablecoin supply | 12.37B USD | live · DefiLlama Stablecoins |
-| DEX volume · 24h | 1.23B USD | live · DefiLlama DEX |
+| SOL price | 71.97 USD | live · CoinGecko |
+| DeFi TVL | 4.64B USD | live · DefiLlama |
+| Stablecoin supply | 12.84B USD | live · DefiLlama Stablecoins |
+| DEX volume · 24h | 870.58M USD | live · DefiLlama DEX |
 | Application fees · 24h | 6.15M USD | live · DefiLlama Fees |
 | Median priority fee | 0.00 micro-lamports/CU | derived · Solana RPC · getRecentPrioritizationFees |
 | Daily active addresses | 595,926 addresses | derived · Solana Data · Dune, Goldsky, Top Ledger |
